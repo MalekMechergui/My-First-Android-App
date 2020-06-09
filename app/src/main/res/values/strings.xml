@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyAgenda</string>
+
+    <string-array name="grocery_list">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Dairy</item>
+        <item>Meat/Fish</item>
+        <item>Pasta/Rice</item>
+        <item>Snacks</item>
+        <item>Paper/Wrap</item>
+        <item>Toiletries</item>
+        <item>More</item>
+    </string-array>
+</resources>

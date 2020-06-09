@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DailyToDo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="You've got this !"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#D7FFDAC1"
+            android:fontFamily="cursive"
+            android:text="Must do"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#D9B5EAD7"
+            android:fontFamily="cursive"
+            android:text="Calls to make"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#D9C7CEEA"
+            android:fontFamily="cursive"
+            android:text="Places to go"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewToDo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Fill your daily to do "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#C7E2F0CB"
+        android:orientation="horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        <EditText
+            android:id="@+id/item_edit_text_todo"
+            android:layout_width="184dp"
+            android:layout_height="100dp"
+            android:layout_weight="4"
+            android:background="@drawable/round"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/add_btn_todo"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/round"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="cursive"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textColorHighlight="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/items_list_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="12dp" />
+
+
+
+</LinearLayout>
